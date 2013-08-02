@@ -22,14 +22,14 @@
         </js-module> 
     </platform>
 
-    <!-- blackberry 10 platform name as per plugin docs -->
+    <!-- blackberry 10 platform name as per plugins development specification -->
     <platform name="bb10">
         <js-module src="www/pointerevents.js" name="PointerEventsPolyfill">
             <runs />
         </js-module> 
     </platform>
 
-    <!-- blackberry 10 platform name how it works right now-->
+    <!-- blackberry 10 platform name how it works right now -->
     <platform name="blackberry10">
         <js-module src="www/pointerevents.js" name="PointerEventsPolyfill">
             <runs />
