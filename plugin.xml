@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+           id="org.apache.cordova.pointerevents"
+      version="0.1.0">
+    <name>PointerEvents</name>
+    <description>Cordova PointerEvents Plugin</description>
+    <license>Apache</license>
+    <keywords>cordova,pointerevents</keywords>
+
+    <!-- polyfill must be applied to the following platforms only -->
+
+    <platform name="ios">
+        <js-module src="www/pointerevents.js" name="PointerEventsPolyfill">
+            <runs />
+        </js-module> 
+    </platform>
+
+    <platform name="android">
+        <js-module src="www/pointerevents.js" name="PointerEventsPolyfill">
+            <runs />
+        </js-module> 
+    </platform>
+
+    <platform name="bb10">
+        <js-module src="www/pointerevents.js" name="PointerEventsPolyfill">
+            <runs />
+        </js-module> 
+    </platform>
+
+</plugin>
