@@ -1,7 +1,7 @@
 Apache Cordova PointerEvents plugin
 ----------------------------
 
-Implements [PointerEvents](http://www.polymer-project.org/) Polyfill based on [Polymer](http://www.polymer-project.org/platform/pointer-events.html) implementation.
+Implements [PointerEvents](https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html) Polyfill based on [Polymer](http://www.polymer-project.org/platform/pointer-events.html) implementation.
 
 Supports iOS, Android 4.x and BB10.
 
