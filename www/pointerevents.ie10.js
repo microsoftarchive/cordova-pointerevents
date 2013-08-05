@@ -60,7 +60,7 @@
             evt.tiltX, evt.tiltY, evt.pointerId, POINTER_TYPES[evt.pointerType], evt.hwTimestamp, evt.isPrimary);
 
         // override pointerType property to be w3c specification compliant (string representation instead of int constant)
-        Object.defineProperty(e, "pointerType", {get: function(){ return  POINTER_TYPES[evt.pointerType]}, enumerable: true});
+        Object.defineProperty(e, 'pointerType', {get: function(){ return  POINTER_TYPES[evt.pointerType]}, enumerable: true});
 
         target.dispatchEvent(e);
 
@@ -76,7 +76,8 @@
             '*[touch-action="none"] { -ms-touch-action: none; } ' + 
             '*[touch-action="auto"] { -ms-touch-action: auto; } ' +
             '*[touch-action="pan-x"] { -ms-touch-action: pan-x; } ' +
-            '*[touch-action="pan-y"] { -ms-touch-action: pan-y; } ';            
+            '*[touch-action="pan-y"] { -ms-touch-action: pan-y; } ' +
+            '*[touch-action="scroll"] { -ms-touch-action: scroll; }';
         document.getElementsByTagName('head')[0].appendChild(style);
     }
 
