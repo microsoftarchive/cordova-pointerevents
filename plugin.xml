@@ -10,6 +10,12 @@
 
     <!-- polyfill must be applied to the following platforms only -->
 
+    <platform name="wp8">
+        <js-module src="www/pointerevents.ie10.js" name="PointerEventsPolyfill">
+            <runs />
+        </js-module> 
+    </platform>
+
     <platform name="ios">
         <js-module src="www/pointerevents.js" name="PointerEventsPolyfill">
             <runs />
