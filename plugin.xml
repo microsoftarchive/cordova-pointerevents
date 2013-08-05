@@ -5,7 +5,7 @@
       version="0.1.0">
     <name>PointerEvents</name>
     <description>Cordova PointerEvents Plugin</description>
-    <license>Apache</license>
+    <license>Apache 2.0</license>
     <keywords>cordova,pointerevents</keywords>
 
     <!-- polyfill must be applied to the following platforms only -->

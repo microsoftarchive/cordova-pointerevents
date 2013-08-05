@@ -1,9 +1,9 @@
 {
     "version": "0.1.0",
     "name": "org.apache.cordova.pointerevents",
-    "cordova_name": "Splashscreen",
+    "cordova_name": "PointerEvents",
     "description": "Cordova PointerEvents Plugin",
-    "license": "Apache",
+    "license": "Apache 2.0",
     "keywords": [
         "cordova",
         "pointerevents"
